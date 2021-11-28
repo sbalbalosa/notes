@@ -1,0 +1,14 @@
+{
+  "name": "notes",
+  "version": "1.0.0",
+  "description": "mock api to create note taking application",
+  "main": "index.js",
+  "author": "Sharlon M. Balbalosa",
+  "license": "MIT",
+  "devDependencies": {
+    "json-server": "^0.17.0"
+  },
+  "scripts": {
+    "start": "yarn run json-server --watch db.json"
+  }
+}
